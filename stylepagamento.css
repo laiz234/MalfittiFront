@@ -68,6 +68,80 @@ summary{
     font-family: 'Abel';
 }
 
+/*OPÇAO DE PAGAMENTO*/
+section section{
+    border: #FFFFFF 0.01em solid;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: -0.5em;
+    padding: 0.5em;
+    width: 30em;
+    height: 5em;
+    display: flex;
+    justify-content: flex-start;
+}
+details .button{
+    margin-right: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border: #000000 0.01em solid;
+    width: 11em;
+    height: 3em;
+    font-family: 'Abel';
+    padding: 0.7em;
+}
+details .button:hover{
+    margin-right: 2.5em;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: #FFFFFF 0.01em solid;
+    background-color: #000000;
+    width: 11em;
+    height: 3em;
+    font-family: 'Abel';
+    padding: 0.7em;
+}
+.cartao{
+    display: flex;
+    flex-direction: column;
+}
+.cartao span{
+    font-family: 'Abel';
+    font-size: 1.2em;
+    margin-right: 18em;
+}
+.cartao label:nth-child(1) input{
+    width: 5em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.cartao label:nth-child(2) input{
+    width: 25em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.cartao label:nth-child(3) input{
+    width: 7em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+.cartao label:nth-child(4) input{
+    width: 7em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+
 /*ENTREGA*/
 .entrega span{
     font-family: 'Abel';
@@ -122,7 +196,7 @@ div:nth-child(2){
     display: flex;
     justify-content: center;
 } 
-.button{
+section:nth-child(3) .button{
     margin-top: 1em;
     text-align: center;
     text-decoration: none;
@@ -132,7 +206,6 @@ div:nth-child(2){
     font-family: 'Abel';
     padding: 0.6em;
 }
-
 
 footer{
     background-color: #C2B999;
