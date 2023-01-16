@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+header{
+    background-color: #9E895E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
+    padding: 0 4em;
+    height: 4.5em;
+}
+header img{
+    height: 3em;
+}
+header nav{
+    display: flex;
+    gap: 35em;
+    margin: 0 2em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    text-decoration: none;
+}
+nav li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.titulo{
+    width: 118.7em;
+    margin-top: 3em;
+}
+section{
+    margin-left: 8em;
+    padding: 8em;
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 25em 25em;
+    grid-column-gap:2em;
+    grid-row-gap:8em;
+}
+div{
+    height: 25em;
+}
+div h4{
+    font-family: 'Abel';
+    margin-top: 1em;
+}
+div h5{
+    font-family: 'Abel';
+    margin-top: 1em;
+}
+div p{
+    font-family: 'Abel';
+    margin-top: 1em;
+}
+footer{
+    background-color: #C2B999;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6em;
+    padding: 3em;
+}
