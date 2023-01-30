@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+header{
+    background-color: #9E895E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
+    padding: 0 4em;
+    height: 4.5em;
+}
+header img{
+    height: 3em;
+}
+header nav{
+    display: flex;
+    gap: 35em;
+    margin: 0 2em;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    text-decoration: none;
+}
+main img{
+    width: 93em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+table{
+    width: 90em;
+    height: 10em;
+    text-align: left;
+    margin-bottom: 2em;
+    border-top: #000000 solid 0.1em;
+    border-bottom: #000000 solid 0.1em;
+}
+summary{
+    font-family: 'Abel';
+    font-weight: bolder;
+    padding: 2em;
+    font-size: 1.3em;
+}
+th{
+    font-size: 1em;
+    color:#000000 ;
+    font-family: 'Abel';
+    padding: 1em;
+    border-bottom: #000000 solid 0.01em;
+}
+td{
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    color: #000000;
+    padding: 1em;
+    border-top: #000000 solid 0.01em;
+}
+td:nth-child(4){
+    width: 8em;
+    font-family: 'Abel', sans-serif;
+    font-weight: bolder;
+    color: #FFFFFF;
+    padding: 1em;
+    background-color: #9E895E;
+}
+
+h1{
+    text-align: left;
+    margin-left: 4.2em;
+    font-family: 'Abel';
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+div img{
+    height: 7em;
+    width: 7em;
+    text-align: left;
+    margin-left:4.5em;
+}
+h3{
+    font-family: 'Abel';
+    margin-left: 1.5em;
+    margin-top: 1.5em;
+}
+p{
+    font-family: 'Abel';
+    margin-left: 1.7em;
+    margin-top: 1em;
+}
+section{
+    margin-left: 2em;
+    display: flex;
+    gap: 8em;
+}
+section div:nth-child(3) p:nth-child(8){
+    color: #9E895E;
+}
+
+.segundo h4{
+    font-family: 'Abel';
+    margin: 2.5em;
+}
+.segundo h5{
+    font-family: 'Abel';
+    margin-left: 2.9em;
+}
+.segundo p{
+    margin-left: 3.5em;
+    color: #9E895E;
+    font-size: 0.7em;
+}
+
+
+footer{
+    background-color: #C2B999;
+    text-align: center;
+    margin-top: 12em;
+    padding: 3em;
+}
